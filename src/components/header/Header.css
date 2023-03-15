@@ -13,7 +13,7 @@
     background-color: var(--foreground);
     border-radius: 5px;
     z-index: 0;
-    position: absolute;
+    /* position: absolute; */
     right: 4rem;
     top: 9rem;
     display: flex;
@@ -83,7 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     left: 50%;
     bottom: 6rem;
     transform: translatex(-50%);
@@ -166,6 +166,7 @@
     }
     .link span{
         display: block;
+        font-size: 1.2rem;
     }
     .erick{
         width: 30rem;

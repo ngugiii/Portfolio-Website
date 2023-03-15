@@ -2,6 +2,7 @@
     background-color: var(--background);
     color: var(--foreground);
     padding-bottom: 2rem;
+    width: 100%;
 }
 .stack{
     display: flex;
@@ -13,8 +14,8 @@
 }
 @media screen and (max-width: 800px) {
     .stack img{
-        width: 8rem;
-        height: 8rem;
+        width: 6rem;
+        height: 6rem;
     }
     
 }

@@ -56,7 +56,7 @@ const Header = (props) => {
           <div className="link">
             <a href="mailto:erickngugi54@gmail.com" target="_blank">
               <MdEmail size={23} color='var(--foreground)'/>
-              <span>Email Me</span>
+              <span>Email</span>
             </a>
           </div>
         </div>
