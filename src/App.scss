@@ -1,9 +1,13 @@
 .main{
   overflow: hidden;
 
-}.header{
+}
+.header{
   background-color: var(--background);
-  height: 100vh;
-
-
+  
+}
+@media screen and (min-width: 600px) {
+  .header{
+    height: 100vh;
+  }
 }

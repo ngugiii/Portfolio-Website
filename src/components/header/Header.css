@@ -4,6 +4,8 @@
     background-color: var(--background);
     margin-top: 10rem;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     /* position: relative; */
 }
 .theme-container{
@@ -13,7 +15,7 @@
     background-color: var(--foreground);
     border-radius: 5px;
     z-index: 0;
-    /* position: absolute; */
+    position: absolute;
     right: 4rem;
     top: 9rem;
     display: flex;
@@ -60,6 +62,7 @@
 .links{
     margin-top: 2rem;
     display: flex;
+    
 }
 .link{
     margin-right: 2.5rem;
@@ -83,10 +86,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute; */
+    position: absolute;
     left: 50%;
     bottom: 6rem;
-    transform: translatex(-50%);
+    transform: translatex(-10%);
     cursor: pointer;
 }
 .floating-icon a{
@@ -132,12 +135,15 @@
     }
     .myHeadings{
         font-size: 1.8rem;
-        width: 30%;
+        width: 100%;
     }
     .myHeadings::after{
-        width: 40%;
+        width: 20%;
         bottom: 0;
         /* left: 3%; */
+    }
+    .myHeadings-about::after{
+        width: 60%;
     }
     /* .heading1{
         width: 20%;
@@ -161,6 +167,9 @@
         font-size: 1.5rem;
         margin-top: 1.2rem;
     }
+    .link:first-child{
+        margin-left: 5rem;
+    }
     .links a{
         font-size: 1.5rem;
     }
@@ -173,7 +182,8 @@
         height: 30rem;
     }
     .floating-icon{
-        bottom: 2rem;
+        position: inherit;
+        bottom: 4rem;
     }
     .floating-icon{
         width: 4rem;

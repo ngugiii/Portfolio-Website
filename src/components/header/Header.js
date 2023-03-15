@@ -18,7 +18,7 @@ const Header = (props) => {
 
       </div>
       <div className="about">
-        <h3 className="myHeadings">About Me</h3>
+        <h3 className="myHeadings myHeadings-about">About Me</h3>
         <p className="name">
           Hi all, I’m <span>Erick...</span>
         </p>

@@ -83,7 +83,7 @@ nav ul li.btn a{
     }
     #nav-links-mobile-hide{
         left: -200%;
-        animation: slide-out 0.5s ease-in-out;
+        /* animation: slide-out 0.5s ease-in-out; */
     }
     @keyframes slide-out {
         0%{transform: translateX(0);}

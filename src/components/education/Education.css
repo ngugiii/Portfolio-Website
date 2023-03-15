@@ -40,21 +40,21 @@ h4.period >*{
 }
 @media screen and (max-width:800px) {
     h2.course{
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-align: center;
     justify-content: center;
 
     }
     h3.institution{
         font-weight: normal;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         text-align: center;
     justify-content: center;
 
     }
     h4.period{
         font-weight: normal;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: center;
     justify-content: center;
 
