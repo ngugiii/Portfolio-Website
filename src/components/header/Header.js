@@ -65,7 +65,7 @@ const Header = (props) => {
         <img src={erick} alt="" className="erick" />
       </div>
       <div className="floating-icon">
-        <a href="#projects">
+        <a href="/#projects">
           <BsMouse color='white' size={25} className="mouse" />
         </a></div>
     </div>
