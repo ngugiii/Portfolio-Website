@@ -1,0 +1,20 @@
+.tech-stack{
+    background-color: var(--background);
+    color: var(--foreground);
+    padding-bottom: 2rem;
+}
+.stack{
+    display: flex;
+    justify-content: space-around;
+}
+.stack img{
+    width: 10rem;
+    height: 10rem;
+}
+@media screen and (max-width: 800px) {
+    .stack img{
+        width: 8rem;
+        height: 8rem;
+    }
+    
+}

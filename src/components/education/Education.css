@@ -1,0 +1,69 @@
+section.education{
+    background-color: var(--background);
+    color: var(--foreground);
+    padding-bottom: 1.3rem;
+
+}
+.education >*{
+    margin-bottom: 1.3rem;
+}
+h2.course{
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+}
+h2.course >*{
+    margin: 0 3px;
+}
+h3.institution{
+    font-weight: normal;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+h3.institution >*{
+    margin: 0 3px;
+}
+h4.period{
+    font-weight: normal;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+h4.period >*{
+    margin: 0 3px;
+}
+.education-details p{
+    width: 70%;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:800px) {
+    h2.course{
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+
+    }
+    h3.institution{
+        font-weight: normal;
+        font-size: 1.6rem;
+        text-align: center;
+    justify-content: center;
+
+    }
+    h4.period{
+        font-weight: normal;
+        font-size: 1.4rem;
+        text-align: center;
+    justify-content: center;
+
+    }
+    .education-details p{
+        font-size: 1.3rem;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+}

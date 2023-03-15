@@ -1,0 +1,113 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    box-shadow: var(--box-shadow);
+    background-color: var(--foreground);
+    color: var(--background);
+}
+.navbar >*{
+    /* margin: 0 7rem; */
+}
+.logo h1{
+    font-family: 'Brush Script MT',cursive;
+    color: var(--color-secondary);
+    font-size: 3rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 1rem;
+}
+nav ul li a{
+    font-size: 1.7rem;
+    color: var(--background);
+    transition: all .5s;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: var(--color-secondary);
+}
+nav ul li.btn{
+    background-color: var(--color-secondary);
+    padding: 5px;
+    border-radius: 4px;
+    color: var(--background);
+}
+nav ul li.btn a{
+    color: #fff;
+}
+.menu-icons{
+    display: none;
+ }
+@media screen and (max-width : 800px){
+    nav ul{
+        display: none;
+        border: 2px solid var(--color-white);
+        z-index: 111;
+    }
+    nav ul li a{
+        color: var(--foreground);
+        
+    }
+    .menu-icons{
+        display: block;
+    }
+    #nav-links-mobile,
+    #nav-links-mobile-hide{
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 9rem;
+        width: 100%;
+        background-color: var(--background);
+        color: var(--foreground);
+        padding-bottom: 5px;
+        transition: all .3s;
+        width: 30rem;
+        border: 1px solid var(--foreground);
+        border-radius: 7px;
+    }
+    #nav-links-mobile {
+        /* right: 0; */
+        animation: slide-in 0.5s ease;
+    }
+    @keyframes slide-in {
+        0%{transform: translateX(200%);}
+        100%{transform: translateX(0);} 
+    }
+    #nav-links-mobile-hide{
+        left: 200%;
+        animation: slide-out 0.5s ease-in-out;
+    }
+    @keyframes slide-out {
+        0%{transform: translateX(0);}
+        100%{transform: translateX(200%);} 
+    }
+    
+    #nav-links-mobile li,
+    #nav-links-mobile-hide li {
+        text-align: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--foreground);
+        margin: 0 3rem;
+    }
+    #nav-links-mobile li:last-child,
+    #nav-links-mobile-hide li:last-child{
+        border-bottom: none;
+        margin-top: 1rem;
+    }
+    nav ul li.btn{
+        background-color: var(--foreground);
+        padding: 5px;
+        border-radius: 4px;
+    }
+    nav ul li.btn a{
+        color: var(--background);
+    }
+ }

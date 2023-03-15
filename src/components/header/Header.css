@@ -1,0 +1,178 @@
+.myHeader{
+    display: flex;
+    color: var(--foreground);
+    background-color: var(--background);
+    margin-top: 10rem;
+    justify-content: center;
+    /* position: relative; */
+}
+.theme-container{
+    width: 3.3rem;
+    height: 3.5rem;
+    box-shadow: var(--box-shadow);
+    background-color: var(--foreground);
+    border-radius: 5px;
+    z-index: 0;
+    position: absolute;
+    right: 4rem;
+    top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.myHeadings{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.myHeadings::after{
+    content: "";
+    width: 8rem;
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--foreground);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.about{
+    margin-right: 4rem;
+    width: 60%;
+    /* max-width: 40%; */
+}
+.erick{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    border: 2px solid var(--foreground);
+}
+.about .name{
+    font-size: 2.3rem;
+    margin-bottom: 1.2rem;
+}
+.name span{
+    color: var(--color-secondary);
+}
+.info{
+    font-size: 2rem;
+}
+.links{
+    margin-top: 2rem;
+    display: flex;
+}
+.link{
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link span{
+    margin-left: 5px;
+}
+.links a {
+    color: var(--foreground);
+    text-decoration: none;
+    font-size: 2rem;
+}
+.floating-icon{
+    background-color: var(--color-secondary);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 6rem;
+    transform: translatex(-50%);
+    cursor: pointer;
+}
+.floating-icon a{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mouse{
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+}
+@keyframes bounce {
+    0%{transform: translateY(-25%);}
+    100%{transform: translateY(25%);}
+}
+@media screen and (max-width: 780px) {
+    .myHeader{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .theme-container{
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
+
+    }
+    .about{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .about .myHeadings{
+        width: 30%;
+        text-align: left;
+    }
+    .myHeadings{
+        font-size: 1.8rem;
+        width: 30%;
+    }
+    .myHeadings::after{
+        width: 40%;
+        bottom: 0;
+        /* left: 3%; */
+    }
+    /* .heading1{
+        width: 20%;
+    }
+    .heading1:after{
+        width: 65%;
+        left: 7%;
+    } */
+    
+    .about .name{
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .info{
+        font-size: 1.7rem;
+    }
+    .links{
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-top: 1.2rem;
+    }
+    .links a{
+        font-size: 1.5rem;
+    }
+    .link span{
+        display: block;
+    }
+    .erick{
+        width: 30rem;
+        height: 30rem;
+    }
+    .floating-icon{
+        bottom: 5px;
+    }
+    
+}
