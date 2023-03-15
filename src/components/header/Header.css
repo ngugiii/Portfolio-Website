@@ -172,7 +172,19 @@
         height: 30rem;
     }
     .floating-icon{
-        bottom: 5px;
+        bottom: 2rem;
+    }
+    .floating-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+    .floating-icon a{
+        width: 4rem;
+        height: 4rem;
+    }
+    .mouse{
+        transform: translateY(-25%);
+        animation: bounce 0.8s ease infinite alternate;
     }
     
 }
