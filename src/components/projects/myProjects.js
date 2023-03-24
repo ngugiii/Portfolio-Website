@@ -6,7 +6,7 @@ import esporty from "../../assets/E_sporty.PNG"
 export const projectDetails = [
     {
         link: "https://myspace-x.netlify.app/",
-        codeLink:"",
+        codeLink:"https://github.com/ngugiii/MySpaceX_Website",
         img: {myspacex},
         title: "MySpaceX website",
         info:"MySpaceX is a modern demo website for a messaging system that is created using HTML, CSS, JavaScript and React.js. The website is Responsive and has been deployed to netlify."
