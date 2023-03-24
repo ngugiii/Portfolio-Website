@@ -7,12 +7,20 @@ This is a simple Portfolio website that showcases but is not limited to my talen
 - JavaScript:
 
       - Programming Language
-      - Used Local Storage to store the products added
+ 
+- React js:
+       
+     - Used React Framework
+     - JSX
+     - Styled Components
+     - Libraries: AOS library
+     - Hooks: useEffect and UseState
       
 - HTML - provided the markup
 - CSS 
      - styled the Markup
      - Ensured the website is responsive
+     - Added a light and dark mode toggler
 
 # Link to website
 
