@@ -5,7 +5,7 @@ section.education{
 
 }
 .education >*{
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.5rem;
 }
 h2.course{
     font-size: 2.3rem;
@@ -17,7 +17,7 @@ h2.course >*{
 }
 h3.institution{
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 2.1rem;
     display: flex;
     align-items: center;
 }
@@ -26,7 +26,7 @@ h3.institution >*{
 }
 h4.period{
     font-weight: normal;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ h4.period >*{
 }
 .education-details p{
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 @media screen and (max-width:800px) {
     h2.course{

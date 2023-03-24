@@ -23,7 +23,7 @@ const Header = (props) => {
           Hi all, I’m <span>Erick...</span>
         </p>
         <p className="info">
-          A passionate Software Developer with 1+ years of experience in building 
+          A passionate Software Developer with experience in building 
           modern web applications using HTML, CSS, JavaScript and React js. I am dedicated
           to the quest of developing solutions that leverage on best practice technologies
           to develop over the top User Interfaces and User experiences.

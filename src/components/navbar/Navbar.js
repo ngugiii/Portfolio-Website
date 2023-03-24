@@ -25,7 +25,7 @@ const Navbar = () => {
       </nav>
       <div className="menu-icons" onClick={toggleMenu}>
         {
-        showMenu ? <RiCloseLine color='var(--background)' size={30}/> : <AiOutlineBars color='var(--background)' size={27}/>
+        showMenu ? <RiCloseLine color='#fff' size={30}/> : <AiOutlineBars color='var(--background)' size={27}/>
       }
       </div>
     </div>

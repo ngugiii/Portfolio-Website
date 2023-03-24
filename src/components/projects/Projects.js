@@ -1,13 +1,23 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Projects.css";
 import { projectDetails } from "./myProjects";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 const Projects = (props) => {
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000,
+    });
+  },[])
   const projects = projectDetails.map((project) => {
   console.log(project);
 
     return (
-      <div className="project">
+      <div className="project" data-aos="fade-up">
         <img src={project.img.myspacex} alt="" />
         <img src={project.img.esporty} alt="" />
         <img src={project.img.portfolio} alt="" />

@@ -5,13 +5,13 @@
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --color-secondary: orangered;
   --background: #fff;
-  --foreground: #040121;
+  --foreground: #03021b;
 }
 [data-theme="dark"]{
   
   --color-secondary: orangered;
   --foreground: #fff;
-  --background: #040121;
+  --background: #03021b;
 }
 
 * {
@@ -28,6 +28,7 @@ html {
 
 body {
   font-family: var(--font-family);
+  transition: all .5s;
 }
 
 section {
