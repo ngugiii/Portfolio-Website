@@ -10,7 +10,7 @@ const Education = (props) => {
   const EducationInfo = educationDetails.map((education)=>{
     return (
       <div className="education-details">
-        <h2 className="course"><GiGraduateCap color='var(--foreground)' size={23}/><b>{education.course}</b></h2>
+        <h2 className="course"><GiGraduateCap color='var(--color-secondary)' size={23}/><b>{education.course}</b></h2>
         <h3 className="institution"><MdLibraryBooks color='var(--foreground)' size={20}/><i>{education.Institution}</i></h3>
         <h4 className="period"><BiTimeFive color='var(--foreground)' size={20}/><i>{education.duration}</i></h4>
         <p>{education.description}</p>

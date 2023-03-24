@@ -23,9 +23,15 @@ const Projects = (props) => {
         <img src={project.img.portfolio} alt="" />
         <h4>{project.title}</h4>
         <p className="project-info">{project.info}</p>
+        <div className="links">
         <a href={project.link} target="_blank" className="btn">
-          Check it out
+          Demo
         </a>
+        <a href={project.codeLink} target="_blank" className="btn btn-code">
+          Code
+        </a>
+        </div>
+        
       </div>
     );
   });
