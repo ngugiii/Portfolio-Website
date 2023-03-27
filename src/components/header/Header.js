@@ -8,8 +8,16 @@ import { FaFileDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import cv from "../../assets/Erick Ngugi CV.pdf"
 import "./Header.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Header = (props) => {
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000,
+    });
+  },[])
   console.log(props);
   return (
     <div className="container myHeader" id="about" data-theme={props.myTheme}>
@@ -17,7 +25,7 @@ const Header = (props) => {
         {props.myTheme=="light" ? <HiMoon size={23} color="var(--background)"/> : <BsFillSunFill size={23} color="var(--background)"/>}
 
       </div>
-      <div className="about">
+      <div className="about" data-aos="fade-right">
         <h3 className="myHeadings myHeadings-about">About Me</h3>
         <p className="name">
           Hi all, I’m <span>Erick...</span>
@@ -61,7 +69,7 @@ const Header = (props) => {
           </div>
         </div>
       </div>
-      <div className="picture">
+      <div className="picture" data-aos="fade-left">
         <img src={erick} alt="" className="erick" />
       </div>
       <div className="floating-icon">
