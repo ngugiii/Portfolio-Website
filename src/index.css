@@ -19,7 +19,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all .5s;
+  transition: all .1s;
   /* overflow-x: hidden; */
 }
 
