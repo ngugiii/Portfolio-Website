@@ -19,7 +19,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all .1s;
   /* overflow-x: hidden; */
 }
 
@@ -29,6 +28,8 @@ html {
 
 body {
   font-family: var(--font-family);
+  transition: all .5s;
+
 }
 
 section {
