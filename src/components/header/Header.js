@@ -26,7 +26,7 @@ const Header = (props) => {
           A passionate Software Developer with experience in building 
           modern web applications using HTML, CSS, JavaScript and React js. I am dedicated
           to the quest of developing solutions that leverage on best practice technologies
-          to develop over the top user Interfaces and user experiences.
+          to develop over the top user Interfaces and user experiences
         </p>
         <div className="links">
           <div className="link">
