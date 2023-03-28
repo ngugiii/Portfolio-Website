@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav>
         <ul id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
           <li><a href="/#">Home</a></li>
-          <li><a href="about">About</a></li>
+          <li><a href="/#about">About</a></li>
           <li><a href="/#education">Education</a></li>
           <li><a href="/#tech-stack">Tech Stack</a></li>
           <li className='btn'><a href="/#projects">Projects</a></li>
