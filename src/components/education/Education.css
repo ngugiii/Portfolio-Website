@@ -7,6 +7,8 @@ section.education{
     padding-top: 1rem;
 
 }
+.education-info{
+}
 .education-info >*{
     margin-bottom: 1.5rem;
 }
@@ -77,4 +79,36 @@ h4.period >*{
         display: none;
     }
     
+}
+@media screen and (max-width:1250px){
+    h2.course{
+        font-size: 1.7rem;
+        text-align: center;
+        justify-content: center;
+    
+        }
+        h3.institution{
+            font-weight: normal;
+            font-size: 1.5rem;
+            text-align: center;
+        justify-content: center;
+    
+        }
+        h4.period{
+            font-weight: normal;
+            font-size: 1.5rem;
+            text-align: center;
+        justify-content: center;
+    
+        }
+        .education-details p{
+            font-size: 1.6rem;
+            width: 100%;
+            text-align: center;
+    
+        }
+    .education-pic{
+        display: none;
+    }
+
 }
