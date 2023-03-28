@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import erick from "../../assets/erick.png";
 import { BsMouse } from "react-icons/bs";
 import { HiMoon } from "react-icons/hi";

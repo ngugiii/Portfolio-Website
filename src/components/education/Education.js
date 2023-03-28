@@ -1,11 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Education.css"
 import {GiGraduateCap} from "react-icons/gi"
 import {MdLibraryBooks} from "react-icons/md"
 import {BiTimeFive} from "react-icons/bi"
 import {educationDetails} from "./eduData"
+import eduPic from "../../assets/education.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Education = (props) => {
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000,
+    });
+  },[])
   console.log(educationDetails);
   const EducationInfo = educationDetails.map((education)=>{
     return (
@@ -20,8 +28,15 @@ const Education = (props) => {
   })
   return (
     <section id="education" className="education container" data-theme={props.myTheme}>
+      <div className="education-info">
       <h3 className='myHeadings'>Education</h3>
       {EducationInfo}
+      </div>
+      <div className="education-pic" data-aos="fade-left">
+        <img src={eduPic} alt="education picture" />
+
+      </div>
+      
     </section>
   )
 }
