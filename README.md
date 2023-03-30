@@ -14,7 +14,8 @@ This is a simple Portfolio website that showcases but is not limited to my talen
      - JSX
      - Styled Components
      - Libraries: AOS library
-     - Hooks: useEffect and UseState
+     - Hooks: useEffect, useRef and UseState
+     - used EmailJs for sending emails on my contact component
       
 - HTML - provided the markup
 - CSS 
