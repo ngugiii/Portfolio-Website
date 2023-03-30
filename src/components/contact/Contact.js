@@ -18,7 +18,7 @@ const Contact = (props) => {
           .then((result) => {
               toast.success("Email has been sent successfully, Thank you!");
           }, (error) => {
-              toast.error("Email not sent. Please try again");
+              toast.error("Email not sent.Please try again");
           });
           e.target.reset();
       };
@@ -34,7 +34,7 @@ const Contact = (props) => {
         <div className="form-container">
             <img src={contactImg} alt="" width="600px" data-aos="fade-down"/>
             <form ref={form} action="" data-aos="fade-up" onSubmit={sendEmail}>
-                <h2>Send me an Email</h2>
+                <h2>Send me an email</h2>
                 <input type="text" placeholder='Name' name='user_name' required/>
                 <input type="email" placeholder='Email Address' name='user_email' required/>
                 <input type="text" placeholder='Subject' name='subject' required/>

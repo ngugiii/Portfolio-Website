@@ -15,7 +15,7 @@ export const educationDetails = [
         course: "Kenya Certificate of Secondary Education",
         Institution: "Molo Academy Boys Secondary",
         duration: "February 2014 - November 2017",
-        description: "KCSE Mean grade - B+ (AGP-68)"
+        description: "KCSE Mean grade - B+"
     },
 
 ]

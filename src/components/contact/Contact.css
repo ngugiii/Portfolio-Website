@@ -61,6 +61,7 @@ textarea{
     outline: none;
     background: transparent;
     border-bottom: 2px solid var(--color-secondary);
+    border-radius: 5px;
     width: 70%;
     color: #fff;
     font-size: 1.8rem;

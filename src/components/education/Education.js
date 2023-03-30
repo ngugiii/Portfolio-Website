@@ -28,13 +28,17 @@ const Education = (props) => {
   })
   return (
     <section id="education" className="education container" data-theme={props.myTheme}>
-      <div className="education-info">
+      
       <h3 className='myHeadings'>Education</h3>
+      <div className="education-info">
+        <div className="myEducation">
       {EducationInfo}
-      </div>
+        </div>
+     
       <div className="education-pic" data-aos="fade-left">
         <img src={eduPic} alt="education picture" />
 
+      </div>
       </div>
       
     </section>
