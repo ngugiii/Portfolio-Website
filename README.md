@@ -13,9 +13,8 @@ This is a simple Portfolio website that showcases but is not limited to my talen
      - Used React Framework
      - JSX
      - Styled Components
-     - Libraries: AOS library
+     - Libraries: AOS , emailJS, Toastify
      - Hooks: useEffect, useRef and UseState
-     - used EmailJs for sending emails on my contact component
       
 - HTML - provided the markup
 - CSS 
