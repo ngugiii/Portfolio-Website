@@ -44,7 +44,7 @@ const Header = (props) => {
             </a>
           </div>
           <div className="link">
-            <a href="https://www.linkedin.com/in/erick-ngugi-12aa07243" target="_blank">
+            <a href="https://www.linkedin.com/in/erick-ngugi" target="_blank">
               < BsLinkedin size={23} color='var(--foreground)'/>
               <span>LinkedIn</span>
             </a>

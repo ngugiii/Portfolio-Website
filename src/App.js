@@ -6,6 +6,7 @@ import Education from "./components/education/Education"
 import Projects from "./components/projects/Projects"
 import Footer from "./components/footer/Footer"
 import useLocalStorage from "react-use-localstorage";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [theme, setTheme] = useLocalStorage("theme","light");
@@ -23,6 +24,7 @@ function App() {
       <TechStack myTheme={theme}/>
       <Education myTheme={theme}/>
       <Projects myTheme={theme}/>
+      <Contact myTheme={theme}/>
       <Footer myTheme={theme}/>
       
     </div>

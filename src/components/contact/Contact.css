@@ -1,0 +1,109 @@
+.myContact{
+    background-color: var(--background);
+    color: var(--foreground);
+    padding-bottom: 5rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90rem;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.form-container img{
+    width: 50%;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #03021b;
+    color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: 45rem;
+    position: relative;
+    padding-bottom: 4rem;
+}
+form h2{
+    font-size: 3rem;
+    color: var(--color-secondary);
+    font-family: 'Brush Script MT',cursive;
+    padding-bottom: 2rem;
+
+}
+form input{
+    border: none;
+    border-bottom: 2px solid var(--color-secondary);
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    width: 70%;
+    color: white;
+    outline: none;
+    font-size: 1.8rem;
+}
+textarea{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid var(--color-secondary);
+    width: 70%;
+    color: #fff;
+    font-size: 1.8rem;
+
+}
+textarea::placeholder{
+    color: #a3a0a0;
+}
+input::placeholder{
+    color: #a3a0a0;
+}
+form button{
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+    padding: 3px 2px;
+    color: #fff;
+    font-size: 1.9rem;
+    width: 30%;
+    position: absolute;
+    bottom: 7rem;
+    left: 7rem;
+    cursor: pointer;
+}
+@media screen and (max-width:800px){
+    .form-container img{
+        display: none;
+    }
+    form{
+        width: 100%;
+    }
+    .form-container{
+        padding: 3px;
+    }
+    form input{
+        font-size: 1.6rem;
+    }
+    textarea{
+        font-size: 1.6rem;
+    }
+    form button{
+        font-size: 1.6rem;
+    }
+    
+}
