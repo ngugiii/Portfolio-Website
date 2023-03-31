@@ -38,7 +38,7 @@ const Contact = (props) => {
                 <input type="text" placeholder='Name' name='user_name' required/>
                 <input type="email" placeholder='Email Address' name='user_email' required/>
                 <input type="text" placeholder='Subject' name='subject' required/>
-                <textarea placeholder='Enter your Message Here' name="message" cols="30" rows="3"></textarea>
+                <textarea placeholder='Enter your message here...' name="message" cols="30" rows="3"></textarea>
                 <button type='submit'>Submit</button>
                 <ToastContainer/>
             </form>
