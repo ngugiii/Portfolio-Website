@@ -35,10 +35,10 @@ const Contact = (props) => {
             <img src={contactImg} alt="" width="600px" data-aos="fade-down"/>
             <form ref={form} action="" data-aos="fade-up" onSubmit={sendEmail}>
                 <h2>Send me an email</h2>
-                <input type="text" placeholder='Name' name='user_name' required/>
-                <input type="email" placeholder='Email Address' name='user_email' required/>
-                <input type="text" placeholder='Subject' name='subject' required/>
-                <textarea placeholder='Enter your message here...' name="message" cols="30" rows="3"></textarea>
+                <input type="text" required placeholder='Name' name='user_name' required/>
+                <input type="email" required placeholder='Email Address' name='user_email' required/>
+                <input type="text" required placeholder='Subject' name='subject' required/>
+                <textarea required placeholder='Enter your message here...' name="message" cols="30" rows="3"></textarea>
                 <button type='submit'>Submit</button>
                 <ToastContainer/>
             </form>
