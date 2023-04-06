@@ -22,7 +22,7 @@ const TechStack = (props) => {
     <section className="container tech-stack" id="tech-stack" data-theme={props.myTheme}>
       <h3 className='myHeadings'>Tech Stack</h3>
       <div className="stack-container">
-      <div className="stacks" data-aos="fade-right">
+      <div className="stacks" data-aos="flip-right">
         <div className="stack">
         <img src={html} alt="" />
         <span>HTML</span>
