@@ -10,7 +10,7 @@ const Footer = (props) => {
   return (
     <footer className="footer" id="footer" data-theme={props.myTheme}>
       <div>
-        <p>Created with&nbsp;<AiFillHeart color='red' size={23}/>&nbsp; by &nbsp;<a href="#about">Erick <span>Ngugi</span></a>.&nbsp; Have a great {dayToday}!</p>
+        <p>Created with<AiFillHeart color='red' size={23}/> by <a href="#about">Erick<span> Ngugi</span>.</a> Have a great {dayToday}!</p>
       </div>
     </footer>
   )

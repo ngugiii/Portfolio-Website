@@ -15,6 +15,9 @@ footer.footer{
     justify-content: center;
     align-items: center;
 }
+.footer p >*{
+    margin: 0 4px;
+}
 .footer p a{
     color: var(--color-secondary);
     text-decoration: none;
