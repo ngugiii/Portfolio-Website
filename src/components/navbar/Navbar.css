@@ -3,12 +3,9 @@
     justify-content: space-between;
     align-items: center;
     height: 8rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 1);
     background-color: #03021b;
     color: #fff;
-}
-.navbar >*{
-    /* margin: 0 7rem; */
 }
 .logo h1{
     font-family: 'Brush Script MT',cursive;
@@ -25,7 +22,7 @@ nav ul li{
     margin-right: 1rem;
 }
 nav ul li a{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: #fff;
     transition: all .5s;
     text-decoration: none;
@@ -53,6 +50,8 @@ nav ul li.btn a{
     }
     nav ul li a{
         color: var(--foreground);
+    font-size: 1.7rem;
+
         
     }
     .menu-icons{

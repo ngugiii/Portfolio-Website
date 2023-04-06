@@ -11,10 +11,27 @@ footer.footer{
 }
 .footer p{
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@media screen and (max-width: 800px) {
+.footer p a{
+    color: var(--color-secondary);
+    text-decoration: none;
+
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
     .footer p{
         font-size: 1.6rem;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .footer p{
+        font-size: 1.35rem;
+    }
+    .footer span{
+        display: none;
     }
     
 }
