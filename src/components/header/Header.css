@@ -152,6 +152,10 @@
     .myHeadings-about{
         font-size: 1.4rem;
     }
+    .erick{
+        width: 25rem;
+        height: 25rem;
+    }
     .myHeadings::after{
         width: 20%;
         top: 2.3rem;
