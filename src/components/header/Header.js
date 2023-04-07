@@ -30,6 +30,7 @@ const Header = (props) => {
         <p className="name">
           Hi all, I’m <span>Erick...</span>
         </p>
+        <div className="info-about">
         <p className="info">
           A passionate Software Developer with experience in building 
           modern, interactive and functional web applications. I am dedicated
@@ -68,6 +69,9 @@ const Header = (props) => {
             </a>
           </div>
         </div>
+
+        </div>
+        
       </div>
       <div className="picture" data-aos="fade-left">
         <img src={erick} alt="" className="erick" />

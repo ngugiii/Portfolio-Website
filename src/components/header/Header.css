@@ -39,9 +39,8 @@
     bottom: 0;
 }
 .about{
-    margin-right: 4rem;
+    margin-right: 5%;
     width: 60%;
-    /* max-width: 40%; */
 }
 .erick{
     width: 35rem;
@@ -88,7 +87,7 @@
     align-items: center;
     position: absolute;
     left: 50%;
-    bottom: 6rem;
+    bottom: 8%;
     transform: translatex(-10%);
     cursor: pointer;
 }
@@ -111,7 +110,20 @@
     0%{transform: translateY(-25%);}
     100%{transform: translateY(25%);}
 }
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 651px) and (max-width: 950px){
+    .about{
+        max-width: fit-content;
+    }
+    .erick{
+        width: 25rem;
+        height: 25rem;
+    }
+    .floating-icon{
+        bottom: 35%;
+    }
+    
+}
+@media screen and (max-width: 650px) {
     .myHeader{
         flex-direction: column;
         align-items: center;
@@ -150,21 +162,21 @@
         width: 50%;
         top: 1.7rem;
     }
-    /* .heading1{
-        width: 20%;
-    }
-    .heading1:after{
-        width: 65%;
-        left: 7%;
-    } */
-    
     .about .name{
         text-align: left;
         font-size: 2rem;
         font-weight: 500;
     }
+    .info-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .info{
         font-size: 1.7rem;
+        /* text-align: center; */
+
     }
     .links{
         justify-content: center;
@@ -173,7 +185,7 @@
         margin-top: 1.2rem;
     }
     .link:first-child{
-        margin-left: 5rem;
+        margin-left: 6%;
     }
     .links a{
         font-size: 1.5rem;
@@ -188,7 +200,7 @@
     }
     .floating-icon{
         position: inherit;
-        bottom: 4rem;
+        bottom: 4%;
     }
     .floating-icon{
         width: 4rem;
