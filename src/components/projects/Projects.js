@@ -14,13 +14,11 @@ const Projects = (props) => {
     });
   },[])
   const projects = projectDetails.map((project) => {
-  console.log(project);
+
 
     return (
       <div className="project" data-aos="fade-up">
-        <img src={project.img.myspacex} alt="" />
-        <img src={project.img.esporty} alt="" />
-        <img src={project.img.portfolio} alt="" />
+        <img src={`${project.img}`} alt="" />
         <h4>{project.title}</h4>
         <p className="project-info">{project.info}</p>
         <div className="links">

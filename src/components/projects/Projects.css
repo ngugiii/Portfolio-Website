@@ -13,9 +13,8 @@ section.myProjects{
 }
 .project{
    width: 28%;
-   height: 20%;
+   height: 40rem;
    margin-bottom: 3rem;
-   /* height: 20rem; */
    box-shadow: var(--box-shadow);
    border-radius: 5px;
    background-color: #fff;
@@ -27,8 +26,9 @@ section.myProjects{
 }
 .project img{
     width: 100%;
-    height: 30%;
+    height: 20rem;
     border-radius: 5px 5px 0 0;
+
 }
 .project h4{
     font-size: 2rem;
@@ -39,7 +39,6 @@ section.myProjects{
 }
 p.project-info{
     font-size: 1.4rem;
-    margin-bottom: 1rem;
 }
 a.btn{
     text-decoration: none;
@@ -52,9 +51,7 @@ a.btn{
 
 }
 .links{
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
+    /* width: 100%; */
 
 }
 a.btn{
@@ -63,7 +60,38 @@ a.btn{
 a.btn-code{
     background-color: #03021b;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width: 1290px) and (min-width: 801px){
+    .projects{
+        display: flex;
+        flex-direction: column;
+        margin: 0 4rem;
+    
+        }
+        .project{
+            width: 100%;
+            height: 50%;
+            transition: all .5s;
+        }
+        .project img{
+            height: 40%;
+        }
+      
+        .project h4{
+            font-size: 2.7rem;
+            margin: 5px 0;
+        }
+        p.project-info{
+            font-size: 2.5rem;
+        }
+        a.btn{
+            font-size: 2.4rem;
+            padding: 3px;
+            border-radius: 3px;
+        }
+    
+    
+}
+@media screen and (max-width: 800px) {
     .projects{
     display: flex;
     flex-direction: column;
@@ -72,7 +100,11 @@ a.btn-code{
     }
     .project{
         width: 100%;
+        height: 50%;
         transition: all .5s;
+    }
+    .project img{
+        height: 40%;
     }
   
     .project h4{
