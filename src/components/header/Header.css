@@ -122,6 +122,56 @@
     }
     
 }
+@media screen and (min-width: 1919px) {
+    .myHeader{
+        margin-top: 15rem;
+    }
+    .myHeadings{
+        font-size: 5rem;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    .myHeadings::after{
+        width: 9rem;
+    }
+    .erick{
+        width: 40rem;
+        height: 40rem;
+        border-radius: 50%;
+        border: 2px solid var(--foreground);
+    }
+    .about .name{
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+    }
+    .name span{
+        color: var(--color-secondary);
+    }
+    .info{
+        font-size: 2.6rem;
+    }
+    .link{
+        margin-right: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .links a {
+        color: var(--foreground);
+        text-decoration: none;
+        font-size: 2rem;
+    }
+    .floating-icon{
+        width: 7rem;
+        height: 7rem;
+    }
+    .floating-icon a{
+        width: 7rem;
+        height: 7rem;
+    }
+
+}
+
 @media screen and (max-width: 650px) {
     .myHeader{
         flex-direction: column;

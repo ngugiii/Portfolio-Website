@@ -50,10 +50,6 @@ a.btn{
 
 
 }
-.links{
-    /* width: 100%; */
-
-}
 a.btn{
     background-color: var(--color-secondary);
 }
@@ -91,6 +87,21 @@ a.btn-code{
     
     
 }
+@media screen and (min-width: 1919px) {
+ 
+    .project h4{
+        font-size: 3.5rem;
+    }
+    p.project-info{
+        font-size: 3rem;
+    }
+    a.btn{
+        font-size: 3rem;
+    }
+
+
+}
+
 @media screen and (max-width: 800px) {
     .projects{
     display: flex;
