@@ -42,8 +42,8 @@
     width: 60%;
 }
 .erick{
-    width: 35rem;
-    height: 35rem;
+    width: 33rem;
+    height: 33rem;
     border-radius: 50%;
     border: 2px solid var(--foreground);
 }
@@ -135,8 +135,8 @@
         width: 9rem;
     }
     .erick{
-        width: 40rem;
-        height: 40rem;
+        width: 37rem;
+        height: 37rem;
         border-radius: 50%;
         border: 2px solid var(--foreground);
     }
