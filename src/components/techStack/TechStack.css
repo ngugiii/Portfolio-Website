@@ -49,6 +49,9 @@
         width: 3rem;
         height: 3rem;
     }
+    .stack span{
+        font-size: 1.4rem;
+    }
     
 }
 @media screen and (min-width: 1900px) {
