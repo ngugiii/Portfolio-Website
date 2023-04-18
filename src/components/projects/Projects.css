@@ -4,7 +4,8 @@ section.myProjects{
 }
 .projects{
     /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(3,1fr);
+    place-items: center; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,14 +13,14 @@ section.myProjects{
     margin: 0 4rem;
 }
 .project{
-   width: 28%;
+   width: 35%;
    height: 39rem;
    margin-bottom: 3rem;
    box-shadow: var(--box-shadow);
    border-radius: 5px;
    background-color: #fff;
    color: #040121;
-   padding: 1.5rem;
+   padding: 1.5rem 1.5rem 1rem 1.5rem;
 }
 .project:hover{
     transform: scale(3);
@@ -38,7 +39,7 @@ section.myProjects{
     border-radius: 10px;
 }
 p.project-info{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 a.btn{
     text-decoration: none;
@@ -47,14 +48,22 @@ a.btn{
     border-radius: 3px;
     margin-right: 5px;
     color: #fff;
-
-
 }
 a.btn{
     background-color: var(--color-secondary);
 }
 a.btn-code{
     background-color: #03021b;
+}
+.progress{
+    background-color: purple;
+    color: white;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 2px 3px;
+    
 }
 @media screen and (max-width: 1290px) and (min-width: 801px){
     .projects{

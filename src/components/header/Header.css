@@ -48,14 +48,14 @@
     border: 2px solid var(--foreground);
 }
 .about .name{
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     margin-bottom: 1.2rem;
 }
 .name span{
     color: var(--color-secondary);
 }
 .info{
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 .links{
     margin-top: 2rem;
