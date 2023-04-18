@@ -2,7 +2,7 @@
     display: flex;
     color: var(--foreground);
     background-color: var(--background);
-    margin-top: 10rem;
+    margin-top: 13rem;
     justify-content: center;
     align-items: center;
  
@@ -159,7 +159,7 @@
     .links a {
         color: var(--foreground);
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .floating-icon{
         width: 7rem;
