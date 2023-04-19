@@ -14,7 +14,7 @@ section.myProjects{
 }
 .project{
    width: 35%;
-   height: 37rem;
+   height: 40%;
    margin-bottom: 3rem;
    box-shadow: var(--box-shadow);
    border-radius: 5px;
@@ -68,7 +68,7 @@ a.btn-code{
 }
 @media screen and (max-width: 1400px) and (min-width: 1291px){
     .project{
-        height: 39rem;
+        height: 43%;
     }
 }
 
@@ -109,7 +109,7 @@ a.btn-code{
 @media screen and (min-width: 1919px) {
     .project{
         width: 35%;
-        height: 50rem;
+        height: 50%;
         margin-bottom: 3rem;
         box-shadow: var(--box-shadow);
         border-radius: 5px;
