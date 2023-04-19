@@ -18,7 +18,6 @@ const Header = (props) => {
       duration: 1000,
     });
   },[])
-  console.log(props);
   return (
     <div className="container myHeader" id="about" data-theme={props.myTheme}>
       <div className="theme-container" data-theme={props.myTheme} onClick={props.onToggleTheme}>

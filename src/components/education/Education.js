@@ -14,7 +14,6 @@ const Education = (props) => {
       duration: 1000,
     });
   },[])
-  console.log(educationDetails);
   const EducationInfo = educationDetails.map((education)=>{
     return (
       <div className="education-details">

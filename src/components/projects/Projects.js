@@ -14,19 +14,16 @@ const Projects = (props) => {
     });
   },[])
   const projects = projectDetails.map((project) => {
-    console.log(project.finishedBuild);
-
-
     return (
       <div className="project" data-aos="fade-up">
         <img src={`${project.img}`} alt="" />
         <h4>{project.title}</h4>
         <p className="project-info">{project.info}</p>
         <div className="links">
-        {project.finishedBuild==true && <a href={project.link} target="_blank" className="btn">
+        {project.finishedBuild===true && <a href={project.link} target="_blank" className="btn">
           Demo
         </a> }
-        {project.finishedBuild==false &&<button className="progress">Build in progress</button>}
+        {project.finishedBuild===false &&<button className="progress">Build in progress</button>}
         <a href={project.codeLink} target="_blank" className="btn btn-code">
           Code
         </a>

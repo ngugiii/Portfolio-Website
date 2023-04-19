@@ -6,7 +6,6 @@ const Footer = (props) => {
   const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   const today=new Date();
   const dayToday=days[today.getDay()];
-  console.log(dayToday);
   return (
     <footer className="footer" id="footer" data-theme={props.myTheme}>
       <div>
