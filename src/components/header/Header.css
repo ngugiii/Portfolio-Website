@@ -76,7 +76,7 @@
     text-decoration: none;
     font-size: 1.9rem;
 }
-.links a:hover {
+.links .link a:hover {
     color: orangered;
 }
 .floating-icon{
