@@ -1,9 +1,16 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import "./Navbar.css"
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000,
+    });
+  },[])
   const [showMenu, setShowMenu] = useState(false)
 
   function toggleMenu(){
@@ -11,7 +18,7 @@ const Navbar = () => {
   }
   return (
     <div className="container navbar">
-      <div className="logo">
+      <div className="logo" data-aos="zoom-in">
         <h1>Erick Ngugi</h1>
       </div>
       <nav>

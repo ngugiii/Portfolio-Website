@@ -21,7 +21,7 @@ const Header = (props) => {
   return (
     <div className="container myHeader" id="about" data-theme={props.myTheme}>
       <div className="theme-container" data-theme={props.myTheme} onClick={props.onToggleTheme}>
-        {props.myTheme=="light" ? <HiMoon size={23} color="var(--background)"/> : <BsFillSunFill size={23} color="var(--background)"/>}
+        {props.myTheme=="light" ? <HiMoon size={21} color="var(--background)"/> : <BsFillSunFill size={23} color="var(--background)"/>}
 
       </div>
       <div className="about" data-aos="fade-right">

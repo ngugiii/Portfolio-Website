@@ -7,6 +7,11 @@
     background-color: #03021b;
     color: #fff;
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .logo h1{
     font-family: 'Brush Script MT',cursive;
     color: var(--color-secondary);
