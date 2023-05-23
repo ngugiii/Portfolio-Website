@@ -125,6 +125,13 @@
     }
     
 }
+@media screen and (min-width: 1000px) and (max-width: 1366px){
+    .myHeader{
+        margin-top: 13rem;
+     
+    }
+    
+}
 @media screen and (min-width: 1919px) {
     .myHeader{
         margin-top: 15rem;
