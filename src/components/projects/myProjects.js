@@ -1,7 +1,7 @@
-import myspacex from "../../assets/myspacex.png"
-import portfolio from "../../assets/portfolio.png"
-import esporty from "../../assets/E_sporty.png"
-import jeafs from "../../assets/jeafs.jpg"
+import portfolio from "../../assets/portfolio"
+import esporty from "../../assets/E_sporty"
+import jeafs from "../../assets/jeafs"
+import myspacex from "../../assets/myspacex"
 
 
 export const projectDetails = [
