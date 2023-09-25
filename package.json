@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "VITE_COMMIT_REF=$COMMIT_REF npm run build"
   },
   "eslintConfig": {
     "extends": [
