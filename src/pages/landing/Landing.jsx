@@ -1,17 +1,13 @@
-import "./App.scss";
-import Navbar from "./components/navbar/Navbar"
-import Header from "./components/header/Header"
-import TechStack from "./components/techStack/TechStack"
-import Education from "./components/education/Education"
-import Projects from "./components/projects/Projects"
-import Footer from "./components/footer/Footer"
 import useLocalStorage from "react-use-localstorage";
-import Contact from "./components/contact/Contact";
 import { useEffect, useState } from "react";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
+import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/header/Header";
+import TechStack from "../../components/techStack/TechStack";
+import Education from "../../components/education/Education";
+import Projects from "../../components/projects/Projects";
 
-
-function App() {
+function Landing() {
   const [theme, setTheme] = useLocalStorage("theme","light");
   const [showButton, setShowButton] = useState(false);
 
@@ -37,25 +33,23 @@ function App() {
   };
 
   return (
-    <div className="main">
-      <div className="header" data-theme={theme}>
+    <div className="main w-full">
+      <div className="header w-full" data-theme={theme}>
         <Navbar myTheme={theme}/>
         <Header myTheme={theme} onToggleTheme={toggleTheme}/>
       </div>
       <TechStack myTheme={theme}/>
       <Education myTheme={theme}/>
       <Projects myTheme={theme}/>
-      <Contact myTheme={theme}/>
    {showButton &&
    <div className="top" onClick={handleScrollToTop}>
     <BsFillArrowUpSquareFill size={30} color="var(--color-secondary)"/>
 
    </div> 
    }
-      <Footer myTheme={theme}/>
-   {/* <button class="top" onClick={handleScrollToTop}>&uArr;</button> */}
+      {/* <button class="top" onClick={handleScrollToTop}>&uArr;</button> */}
     </div>
   );
 }
 
-export default App;
+export default Landing;

@@ -1,11 +1,12 @@
-import myspacex from "../../assets/myspacex.PNG"
-import portfolio from "../../assets/portfolio.PNG"
-import esporty from "../../assets/E_sporty.PNG"
-import jeafs from "../../assets/jeafs.JPG"
+import myspacex from "../../assets/myspacex.png"
+import portfolio from "../../assets/portfolio.png"
+import esporty from "../../assets/E_sporty.png"
+import jeafs from "../../assets/jeafs.jpg"
 
 
 export const projectDetails = [
     {
+        id:1,
         link: "",
         codeLink:"https://github.com/ngugiii/React-ECommerce-Website",
         img: jeafs,
@@ -14,6 +15,7 @@ export const projectDetails = [
         finishedBuild: false
     },
     {
+        id:2,
         link: "https://erickngugi.netlify.app/",
         codeLink:"https://github.com/ngugiii/Portfolio-Website",
         img: portfolio,
@@ -23,6 +25,7 @@ export const projectDetails = [
 
     },
     {
+        id:3,
         link: "https://myspace-x.netlify.app/",
         codeLink:"https://github.com/ngugiii/MySpaceX_Website",
         img: myspacex,
@@ -31,6 +34,7 @@ export const projectDetails = [
         finishedBuild: true
     },
     {
+        id:4,
         link: "https://esportyshop.netlify.app/",
         codeLink:"https://github.com/ngugiii/online-shop",
         img: esporty,

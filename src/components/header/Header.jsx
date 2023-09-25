@@ -20,10 +20,10 @@ const Header = (props) => {
   },[])
   return (
     <div className="container myHeader" id="about" data-theme={props.myTheme}>
-      <div className="theme-container" data-theme={props.myTheme} onClick={props.onToggleTheme}>
+      {/* <div className="theme-container" data-theme={props.myTheme} onClick={props.onToggleTheme}>
         {props.myTheme=="light" ? <HiMoon size={21} color="var(--background)"/> : <BsFillSunFill size={23} color="var(--background)"/>}
 
-      </div>
+      </div> */}
       <div className="about" data-aos="fade-right">
         <h3 className="myHeadings myHeadings-about">About Me</h3>
         <p className="name">
@@ -36,35 +36,35 @@ const Header = (props) => {
           to the quest of developing solutions that leverage on best practice technologies
           to develop over the top user Interfaces and user experiences
         </p>
-        <div className="links">
+        <div className="links ml-7">
           <div className="link">
             <a href="https://github.com/ngugiii" target="_blank">
-              < BsGithub size={23} color='var(--foreground)'/>
-              <span>Github</span>
+              < BsGithub size={26} className="text-black hover:text-[orangered]"/>
+              {/* <span>Github</span> */}
             </a>
           </div>
           <div className="link">
             <a href="https://www.linkedin.com/in/erick-ngugi" target="_blank">
-              < BsLinkedin size={23} color='var(--foreground)'/>
-              <span>LinkedIn</span>
+              < BsLinkedin size={26} className="text-black hover:text-[orangered]"/>
+              {/* <span>LinkedIn</span> */}
             </a>
           </div>
           <div className="link">
             <a href="https://twitter.com/Erickngugi_" target="_blank">
-              < BsTwitter size={23} color='var(--foreground)'/>
-              <span>Twitter</span>
+              < BsTwitter size={26} className="text-black hover:text-[orangered]"/>
+              {/* <span>Twitter</span> */}
             </a>
           </div>
           <div className="link">
             <a href={cv} target="_blank">
-              <FaFileDownload size={23} color='var(--foreground)'/>
-              <span>Resume</span>
+              <FaFileDownload size={26} className="text-black hover:text-[orangered]"/>
+              {/* <span>Resume</span> */}
             </a>
           </div>
           <div className="link">
             <a href="mailto:erickngugi54@gmail.com" target="_blank">
-              <MdEmail size={23} color='var(--foreground)'/>
-              <span>Email</span>
+              <MdEmail size={26} className="text-black hover:text-[orangered]"/>
+              {/* <span>Email</span> */}
             </a>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Header = (props) => {
         
       </div>
       <div className="picture" data-aos="fade-left">
-        <img src={erick} alt="" className="erick" />
+        <img src={erick} alt="" className="erick w-[350px] h-[350px] border-l-4 border-b-4 border-b-[orangered] border-l-[orangered] rounded-[50%] shadow-md" />
       </div>
       <div className="floating-icon">
         <a href="/#projects">

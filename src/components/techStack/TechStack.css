@@ -16,7 +16,6 @@
     grid-template-columns: repeat(4,1fr);
     width: 100%;
     background-color: var(--background);
-    box-shadow: var(--box-shadow);
 }
 .stack{
     display: flex;

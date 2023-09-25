@@ -17,7 +17,7 @@
     align-items: center;
     width: 90rem;
     background-color: #fff;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     padding: 1rem;
     border-radius: 5px;
 }
@@ -39,7 +39,6 @@ form{
     padding-bottom: 4rem;
 }
 form h2{
-    font-size: 3rem;
     color: var(--color-secondary);
     font-family: 'Brush Script MT',cursive;
     padding-bottom: 3rem;
@@ -73,19 +72,16 @@ textarea::placeholder{
 input::placeholder{
     color: #a3a0a0;
 }
-form button{
-    background-color: var(--color-secondary);
-    border-radius: 5px;
-    border: none;
-    margin-top: 2rem;
-    padding: 3px 2px;
-    color: #fff;
-    font-size: 1.9rem;
-    width: 30%;
-    position: absolute;
-    bottom: 6rem;
-    left: 7rem;
-    cursor: pointer;
+.submit-btn{
+border: 2px solid orangered;
+border-radius: 7px;
+padding: 3px 4px;
+font-size: 1.5rem;
+margin-top: 13px;
+text-align: right;
+}
+.submit-btn:hover{
+    background-color: orangered;
 }
 @media screen and (max-width:750px){
     .form-container{

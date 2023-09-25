@@ -8,20 +8,23 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^3.0.0-beta.6",
-    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-router-dom": "^6.9.0",
-    "react-scripts": "5.0.0",
+    "react-router-dom": "^6.16.0",
     "react-toastify": "^9.1.2",
     "react-use-localstorage": "^3.5.3"
   },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
+    "vite": "^3.0.7"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build"
   },
   "eslintConfig": {
     "extends": [

@@ -4,6 +4,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   useEffect(()=>{
@@ -17,22 +18,22 @@ const Navbar = () => {
     setShowMenu(prevState => !prevState);
   }
   return (
-    <div className="container navbar">
+    <div className="w-full sm:px-28 px-8 py-3 navbar">
       <div className="logo" data-aos="zoom-in">
         <h1>Erick Ngugi</h1>
       </div>
       <nav>
         <ul id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
-          <li><a href="/#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="/#about">About</a></li>
           <li><a href="/#education">Education</a></li>
           <li><a href="/#projects">Projects</a></li>
-          <li className='btn'><a href="/#contact">Contact</a></li>
+          <li className='btn'><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
       <div className="menu-icons" onClick={toggleMenu}>
         {
-        showMenu ? <RiCloseLine color='#fff' size={30}/> : <AiOutlineBars color='#fff' size={27}/>
+        showMenu ? <RiCloseLine color='black' size={30}/> : <AiOutlineBars color='black' size={27}/>
       }
       </div>
     </div>

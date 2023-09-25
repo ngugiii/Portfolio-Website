@@ -35,7 +35,7 @@ const Education = (props) => {
         </div>
      
       <div className="education-pic" data-aos="fade-left">
-        <img src={eduPic} alt="education picture" />
+        <img src={eduPic} className='w-[800px] h-[400px]' alt="education picture" />
 
       </div>
       </div>

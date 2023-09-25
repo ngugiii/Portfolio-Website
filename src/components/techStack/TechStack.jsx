@@ -7,7 +7,7 @@ import { stackData } from './stack';
 const TechStack = (props) => {
   useEffect(()=>{
     AOS.init({
-      duration: 1000,
+      duration: 1500,
     });
   },[])
   console.log(stackData);
@@ -24,7 +24,7 @@ const TechStack = (props) => {
     <section className="container tech-stack" id="tech-stack" data-theme={props.myTheme}>
       <h3 className='myHeadings'>Tech Stack</h3>
       <div className="stack-container">
-      <div className="stacks" data-aos="flip-right">
+      <div className="stacks shadow" data-aos="flip-right">
         {data}
       </div>
       </div>

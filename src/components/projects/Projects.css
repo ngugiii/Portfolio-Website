@@ -1,70 +1,6 @@
-section.myProjects{
-    background-color: var(--background);
-    color: var(--foreground);
-}
-.projects{
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    place-items: center; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 4rem;
-}
-.project{
-   width: 35%;
-   height: 40%;
-   margin-bottom: 3rem;
-   box-shadow: var(--box-shadow);
-   border-radius: 5px;
-   background-color: #fff;
-   color: #040121;
-   padding: 1.5rem 1.5rem 1rem 1.5rem;
-}
-.project:hover{
-    transform: scale(3);
-}
-.project img{
-    width: 100%;
-    height: 20rem;
-    border-radius: 5px 5px 0 0;
-
-}
-.project h4{
-    font-size: 2rem;
-    text-align: center;
-    margin: 7px 0;
-    border-top: 4px solid #040121;
-    border-radius: 10px;
-}
-p.project-info{
-    font-size: 1.7rem;
-}
-a.btn{
-    text-decoration: none;
-    font-size: 1.7rem;
-    padding: 2px 3px;
-    border-radius: 3px;
-    margin-right: 5px;
-    color: #fff;
-}
-a.btn{
-    background-color: var(--color-secondary);
-}
-a.btn-code{
-    background-color: #03021b;
-}
-.progress{
-    background-color: purple;
-    color: #fff;
-    border: none;
-    outline: none;
-    margin-right: 5px;
-    border-radius: 3px;
-    padding: 2px 3px;
-    font-size: 1.7rem;
-    
+a.link-btn{
+    color: white;
+    font-size: 1.5rem;
 }
 @media screen and (max-width: 1400px) and (min-width: 1291px){
     .project{
@@ -74,9 +10,9 @@ a.btn-code{
 
 @media screen and (max-width: 1290px) and (min-width: 801px){
     .projects{
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        margin: 0 4rem;
+        margin: 0 4rem; */
     
         }
         .project{
@@ -135,12 +71,12 @@ a.btn-code{
 }
 
 @media screen and (max-width: 800px) {
-    .projects{
+    /* .projects{
     display: flex;
     flex-direction: column;
     margin: 0 4rem;
 
-    }
+    } */
     .project{
         width: 100%;
         height: 50%;
