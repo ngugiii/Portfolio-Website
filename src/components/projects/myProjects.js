@@ -20,7 +20,7 @@ export const projectDetails = [
         codeLink:"https://github.com/ngugiii/Portfolio-Website",
         img: portfolio,
         title: "Portfolio Website",
-        info:"I created my portfolio website using HTML, CSS, javaScript and React js. This is a modern and responsive website that has been deployed to netlify",
+        info:"I created my portfolio website using HTML, CSS, Tailwind CSS, javaScript and React js. This is a modern and responsive website that has been deployed to netlify",
         finishedBuild: true
 
     },
