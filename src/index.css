@@ -13,8 +13,8 @@
 [data-theme="dark"]{
   
   --color-secondary: orangered;
-  --foreground: #fff;
-  --background: #03021b;
+  --foreground: #03021b;
+  --background: #fff;
 }
 
 *{
