@@ -1,6 +1,6 @@
 import portfolio from "../../assets/portfolio.png"
 import esporty from "../../assets/E_sporty.png"
-import jeafs from "../../assets/jeafs.jpg"
+import jeafs from "../../assets/jeafs.png"
 import myspacex from "../../assets/myspacex.png"
 
 
