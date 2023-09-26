@@ -28,7 +28,7 @@ const Contact = (props) => {
         });
       },[])
   return (
-    <section className="container myContact" id="contact" data-theme={props.myTheme}>
+    <section className="container sm:h-full h-[73vh] flex justify-center items-center myContact" id="contact" data-theme={props.myTheme}>
         {/* <h3 className="myHeadings">Contact Me</h3> */}
         <div className="form">
         <div className="form-container shadow">
