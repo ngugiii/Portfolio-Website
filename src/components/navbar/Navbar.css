@@ -36,14 +36,22 @@ nav ul li a:hover{
     color: var(--color-secondary);
 }
 nav ul li.btn{
-    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
     padding: 5px;
-    border-radius: 4px;
+    border-radius: 8px;
+    color: black;
+}
+nav ul li.btn a:hover{
+    color: #fff;
+    transition: none;
+}
+nav ul li.btn:hover{
+    background-color: var(--color-secondary);
     color: #fff;
 }
-nav ul li.btn a{
+/* nav ul li.btn a{
     color: #fff;
-}
+} */
 .menu-icons{
     display: none;
  }
