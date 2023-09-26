@@ -14,7 +14,7 @@ const Contact = (props) => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_pzdd12n', 'template_2zobbhm', form.current, '5BBf3q2Q_hCqN3RKmaupB')
+        emailjs.sendForm('service_pzdd12n', 'template_2zobbhm', form.current, '-2NiGoWckwPEeBx6j')
           .then((result) => {
               toast.success("Email has been sent successfully. Thank you!");
           }, (error) => {
