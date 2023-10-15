@@ -13,7 +13,8 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.16.0",
     "react-toastify": "^9.1.2",
-    "react-use-localstorage": "^3.5.3"
+    "react-use-localstorage": "^3.5.3",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.0.1",

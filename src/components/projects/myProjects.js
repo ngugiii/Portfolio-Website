@@ -2,11 +2,21 @@ import portfolio from "../../assets/portfolio.PNG"
 import esporty from "../../assets/E_sporty.PNG"
 import jeafs from "../../assets/jeafs.jpg"
 import myspacex from "../../assets/myspacex.PNG"
+import getLinked from "../../assets/getLinked.png"
 
 
 export const projectDetails = [
     {
         id:1,
+        link: "",
+        codeLink:"",
+        img: getLinked,
+        title: "GetLinked Landing Page",
+        info: "This is a modern Landing Page built with React and styled using Tailwind CSS. It has a landing page, Contact Page and Registration Page",
+        finishedBuild: true
+    },
+    {
+        id:2,
         link: "",
         codeLink:"https://github.com/ngugiii/React-ECommerce-Website",
         img: jeafs,
@@ -15,7 +25,7 @@ export const projectDetails = [
         finishedBuild: false
     },
     {
-        id:2,
+        id:3,
         link: "https://erickngugi.netlify.app/",
         codeLink:"https://github.com/ngugiii/Portfolio-Website",
         img: portfolio,
@@ -25,7 +35,7 @@ export const projectDetails = [
 
     },
     {
-        id:3,
+        id:4,
         link: "https://myspace-x.netlify.app/",
         codeLink:"https://github.com/ngugiii/MySpaceX_Website",
         img: myspacex,
@@ -34,7 +44,7 @@ export const projectDetails = [
         finishedBuild: true
     },
     {
-        id:4,
+        id:5,
         link: "https://esportyshop.netlify.app/",
         codeLink:"https://github.com/ngugiii/online-shop",
         img: esporty,

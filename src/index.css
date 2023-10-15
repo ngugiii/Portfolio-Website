@@ -63,3 +63,29 @@ section {
 }
 /* UTILITY CLASSES */
 
+.vertical-timeline::before {
+  border-left: 4px solid orangered; /* Change the color to your desired color */
+}
+.vertical-timeline::after {
+  border-left: 4px solid orangered; /* Change the color to your desired color */
+}
+.vertical-timeline-element::after {
+  background-color: #D434FE; /* Change the color of the circles between connecting lines */
+}
+.iconss{
+  background-color: #03021b;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.date{
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eduText{
+font-size: 40rem;
+}
