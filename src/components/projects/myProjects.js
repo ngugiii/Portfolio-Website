@@ -8,8 +8,8 @@ import getLinked from "../../assets/getLinked.png"
 export const projectDetails = [
     {
         id:1,
-        link: "",
-        codeLink:"",
+        link: "https://main--getlinkedpage.netlify.app/",
+        codeLink:"https://github.com/ngugiii/linked",
         img: getLinked,
         title: "GetLinked Landing Page",
         info: "This is a modern Landing Page built with React and styled using Tailwind CSS. It has a landing page, Contact Page and Registration Page",
