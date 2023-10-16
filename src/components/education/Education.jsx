@@ -62,7 +62,8 @@ const Education = (props) => {
               <h1 className="vertical-timeline-element-title sm:text-3xl text-2xl font-bold text-[orangered]">
                 {timeline.course}
               </h1>
-              <p className="vertical-timeline-element-subtitle text-xl">{timeline.description}</p>
+              <p className="vertical-timeline-element-subtitle font-extrabold text-2xl">{timeline.Institution}</p>
+              <p className="text-2xl">{timeline.description}</p>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
