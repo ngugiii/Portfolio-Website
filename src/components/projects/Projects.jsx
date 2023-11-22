@@ -4,6 +4,7 @@ import { projectDetails } from "./myProjects";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -16,9 +17,10 @@ const Projects = (props) => {
   const projects = projectDetails.map((project) => {
     return (
       <div key={project.id} className="project sm:w-[55rem] sm:h-[45rem] p-5 rounded-md shadow-md" data-aos="fade-up">
-        <img src={`${project.img}`} alt="" className="h-[25rem] rounded w-full" />
+       {!project.video && <img src={`${project.img}`} alt="" className="h-[25rem] rounded w-full" />}
+        {project.video && <Link to={`project/${project.id}`} className=""><img src={`${project.img}`} alt="" className="h-[25rem] hover:scale-105 rounded w-full" /></Link>  }
         <h4 className="font-bold text-3xl text-orange-600 text-center my-2">{project.title}</h4>
-        <p className="project-info text-2xl">{project.info}</p>
+        <p className="project-info text-2xl">{project.info}</p>{project.video && <Link to={`project/${project.id}`} className="text-blue-500 underline md:text-[1.8rem] text-[1.6rem] hover:text-blue-700">See more</Link>  }
         <div className="links text-white">
         {project.finishedBuild===true && <a href={project.link} target="_blank" className="link-btn bg-orange-500 rounded mr-2 px-2 py-1 hover:bg-orange-600">
           Demo

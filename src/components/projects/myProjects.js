@@ -4,6 +4,8 @@ import jeafs from "../../assets/jeafs.jpg"
 import myspacex from "../../assets/myspacex.PNG"
 import getLinked from "../../assets/getLinked.png"
 import nhs from "../../assets/nhs.png"
+import nhsVideo from "../../assets/nhs.mp4"
+import linkedVideo from "../../assets/linked.mp4"
 
 
 export const projectDetails = [
@@ -11,8 +13,12 @@ export const projectDetails = [
         id:1,
         link: "https://nairobihouseofstyle.netlify.app/",
         img: nhs,
+        video: nhsVideo,
         title: "Nairobi House of Style",
         info: "This is a Full Stack e-commerce portal developed using the MERN Stack, backend has been deployed to render and frontend to netlify",
+        descriptionOverview: "This eCommerce website is built using React js, Tailwind CSS, Mongo DB and Node js, providing users with a seamless shopping experience. Users can explore a wide range of products, add items to their carts, make purchases, and manage their orders efficiently. The platform includes user authentication, product catalog browsing, and an intuitive user interface for a smooth shopping journey",
+        descriptionFeatures:["User registration and login","CRUD Operations for Products, Orders, Authentication and Reviews","Admin Dashboard","Responsive Design"],
+        descriptionTechnologies:["HTML,CSS,JavaScript","React JS","Tailwind CSS","Vite","Node JS","Express JS","Mongo DB"],
         finishedBuild: true
     },
     {
@@ -20,8 +26,12 @@ export const projectDetails = [
         link: "https://main--getlinkedpage.netlify.app/",
         codeLink:"https://github.com/ngugiii/linked",
         img: getLinked,
+        video: linkedVideo,
         title: "GetLinked Landing Page",
         info: "This is a modern Landing Page built with React and styled using Tailwind CSS. It has a landing page, Contact Page and Registration Page",
+        descriptionOverview: "Experience modern web design with our ReactJS and Tailwind CSS powered landing page. Engage users with a responsive interface, seamless navigation, and visually appealing elements for an immersive experience, all optimized for superior performance and brand impact.",
+        descriptionFeatures:["Lnding Page","Registration Page","Contact Page","Responsive Design"],
+        descriptionTechnologies:["HTML,CSS,JavaScript","React JS","Tailwind CSS"],
         finishedBuild: true
     },
     {
