@@ -21,9 +21,11 @@ const Navbar = () => {
   }
   return (
     <div className="w-full sm:px-28 px-8 py-3 navbar">
-      <div className="logo" data-aos="zoom-in">
+    <Link to="/">
+    <div className="logo" data-aos="zoom-in">
         <h1>Erick Ngugi</h1>
       </div>
+      </Link>
       <nav>
         <ul id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
           <li>
