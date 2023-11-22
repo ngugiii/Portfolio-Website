@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { projectDetails } from "./myProjects";
 import Navbar from '../navbar/Navbar';
 import { useParams } from 'react-router-dom';
@@ -7,6 +7,9 @@ import ReactPlayer from 'react-player';
 const Project = () => {
     const no=useParams();
     const id=no.id;
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls the window to the top on component mount
+      }, []);
 
 
    const projectDetail=projectDetails.find((project)=>project.id == id);
