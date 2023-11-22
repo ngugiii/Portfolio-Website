@@ -3,11 +3,20 @@ import esporty from "../../assets/E_sporty.PNG"
 import jeafs from "../../assets/jeafs.jpg"
 import myspacex from "../../assets/myspacex.PNG"
 import getLinked from "../../assets/getLinked.png"
+import nhs from "../../assets/nhs.png"
 
 
 export const projectDetails = [
     {
         id:1,
+        link: "https://nairobihouseofstyle.netlify.app/",
+        img: nhs,
+        title: "Nairobi House of Style",
+        info: "This is a Full Stack e-commerce portal developed using the MERN Stack, backend has been deployed to render and frontend to netlify",
+        finishedBuild: true
+    },
+    {
+        id:2,
         link: "https://main--getlinkedpage.netlify.app/",
         codeLink:"https://github.com/ngugiii/linked",
         img: getLinked,
@@ -16,7 +25,7 @@ export const projectDetails = [
         finishedBuild: true
     },
     {
-        id:2,
+        id:3,
         link: "",
         codeLink:"https://github.com/ngugiii/React-ECommerce-Website",
         img: jeafs,
@@ -25,7 +34,7 @@ export const projectDetails = [
         finishedBuild: false
     },
     {
-        id:3,
+        id:4,
         link: "https://erickngugi.netlify.app/",
         codeLink:"https://github.com/ngugiii/Portfolio-Website",
         img: portfolio,
@@ -35,7 +44,7 @@ export const projectDetails = [
 
     },
     {
-        id:4,
+        id:5,
         link: "https://myspace-x.netlify.app/",
         codeLink:"https://github.com/ngugiii/MySpaceX_Website",
         img: myspacex,
@@ -44,7 +53,7 @@ export const projectDetails = [
         finishedBuild: true
     },
     {
-        id:5,
+        id:6,
         link: "https://esportyshop.netlify.app/",
         codeLink:"https://github.com/ngugiii/online-shop",
         img: esporty,

@@ -23,10 +23,10 @@ const Projects = (props) => {
         {project.finishedBuild===true && <a href={project.link} target="_blank" className="link-btn bg-orange-500 rounded mr-2 px-2 py-1 hover:bg-orange-600">
           Demo
         </a> }
-        {project.finishedBuild===false &&<button className="progress link-btn bg-blue-500 rounded mr-2 px-2 py-1">Build in progress</button>}
-        <a href={project.codeLink} target="_blank" className="link-btn bg-gray-800 rounded mr-2 px-2 py-1 hover:bg-gray-900">
+        {project.finishedBuild===false && <button className="progress link-btn bg-blue-500 rounded mr-2 px-2 py-1">Build in progress</button>}
+       {project.codeLink && <a href={project.codeLink} target="_blank" className="link-btn bg-gray-800 rounded mr-2 px-2 py-1 hover:bg-gray-900">
           Code
-        </a>
+        </a>}
         </div>
         
       </div>
