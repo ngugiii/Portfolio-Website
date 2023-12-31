@@ -3,12 +3,27 @@ import esporty from "../../assets/E_sporty.PNG"
 import jeafs from "../../assets/jeafs.jpg"
 import myspacex from "../../assets/myspacex.PNG"
 import getLinked from "../../assets/getLinked.png"
+import issue from "../../assets/issue.png"
 import nhs from "../../assets/nhs.png"
 import nhsVideo from "../../assets/nhs.mp4"
 import linkedVideo from "../../assets/linked.mp4"
+import issueVideo from "../../assets/issue.mp4"
 
 
 export const projectDetails = [
+    {
+        id:7,
+        link: "https://myissue-tracker.vercel.app/",
+        codeLink:"https://github.com/ngugiii/issue-tracker",
+        img: issue,
+        video: issueVideo,
+        title: "Issue Tracker",
+        info: "Next.js-based Issue Tracker for effortless issue management, allowing tracking, assignment, and monitoring within projects",
+        descriptionOverview: "Utilizing Next.js, Prisma, Node.js, and MongoDB, this Issue Tracker app streamlines project management. It empowers users to effortlessly create, categorize, and track project issues. With intuitive features for status tracking, user assignment, and progress monitoring, it offers a user-friendly interface for seamless issue management within projects",
+        descriptionFeatures:["User registration and login","CRUD Operations for Issues","User Assignment","Intuitive Categorization","Real-time Progress Tracking","Responsive Design"],
+        descriptionTechnologies:["HTML,CSS,JavaScript","Next js","React JS","Tailwind CSS","Prisma","NextAuth","Node JS","Express JS","Mongo DB"],
+        finishedBuild: true
+    },
     {
         id:1,
         link: "https://nairobihouseofstyle.netlify.app/",

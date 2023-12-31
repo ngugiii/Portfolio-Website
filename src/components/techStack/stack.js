@@ -4,6 +4,7 @@ import javascript from "../../assets/javascript.png"
 import react from "../../assets/react.png"
 import git from "../../assets/git.png"
 import figma from "../../assets/figma.png"
+import next from "../../assets/next.png"
 import firebase from "../../assets/firebase.png"
 import redux from "../../assets/redux.png"
 import mongo from "../../assets/mongo.png"
@@ -34,6 +35,10 @@ export const stackData = [
     {
         name:"React JS",
         imgSRC:react,
+    },
+    {
+        name:"Next JS",
+        imgSRC:next,
     },
     {
         name:"Redux",
