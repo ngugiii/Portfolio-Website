@@ -44,7 +44,7 @@ export const projectDetails = [
         video: linkedVideo,
         title: "GetLinked Landing Page",
         info: "This is a modern Landing Page built with React.js and styled using Tailwind CSS. It has a landing page, Contact Page and Registration Page",
-        descriptionOverview: "Experience modern web design with our ReactJS and Tailwind CSS powered landing page. Engage users with a responsive interface, seamless navigation, and visually appealing elements for an immersive experience, all optimized for superior performance and brand impact.",
+        descriptionOverview: "Experience modern web design with my ReactJS and Tailwind CSS powered landing page. Engage users with a responsive interface, seamless navigation, and visually appealing elements for an immersive experience, all optimized for superior performance and brand impact.",
         descriptionFeatures:["Lnding Page","Registration Page","Contact Page","Responsive Design"],
         descriptionTechnologies:["HTML,CSS,JavaScript","React JS","Tailwind CSS"],
         finishedBuild: true
