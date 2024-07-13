@@ -10,6 +10,8 @@ import redux from "../../assets/redux.png"
 import mongo from "../../assets/mongo.png"
 import node from "../../assets/node.png"
 import tailwind from "../../assets/tailwind.png"
+import vue from "../../assets/vue.png"
+import nuxt from "../../assets/nuxt.png"
 
 export const stackData = [
     {
@@ -39,6 +41,14 @@ export const stackData = [
     {
         name:"Next JS",
         imgSRC:next,
+    },
+    {
+        name:"Vue JS",
+        imgSRC:vue,
+    },
+    {
+        name:"Nuxt JS",
+        imgSRC:nuxt,
     },
     {
         name:"Redux",

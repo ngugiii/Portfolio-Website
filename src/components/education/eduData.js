@@ -8,7 +8,7 @@ export const educationDetails = [
     {
         course: "Certification in Software Engineering",
         Institution: "ALX Africa",
-        duration: "January 2023 - Present",
+        duration: "January 2023 - March 2024",
         description: "The ALX Holberton Software Engineering program is a 12 month immersive program that engages technology enthusiasts in a variety of programs across in-demand tech disciplines. For my case I am doing a full Stack software Engineering course where I am learning various things ranging from Shell navigation, Low level programming using C language, System Engineering and Devops, High level programming in Python and JavaScript and also Technical writing"
     },
     {
